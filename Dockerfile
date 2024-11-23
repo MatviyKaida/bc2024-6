@@ -35,4 +35,4 @@ COPY . .
 EXPOSE 3000
 
 # Run the application.
-CMD nodemon --inspect=0.0.0.0 Lab_5.js --host 0.0.0.0 --port 3000 --cache ./cacheDir
+CMD nodemon --inspect=0.0.0.0 Lab_5.js --port 3000 --host 0.0.0.0 --cache ./cacheDir
