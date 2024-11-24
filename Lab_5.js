@@ -15,6 +15,8 @@ if (!fs.existsSync(options.cache)) {
     fs.promises.writeFile(options.cache, JSON.stringify(Array()))
 }
 
+
+
 const app = express()
 app.listen(options.port, options.host, () => {
     console.log(`Server run on http://${options.host}:${options.port}`)

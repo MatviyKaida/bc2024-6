@@ -4,7 +4,8 @@
   "description": "",
   "main": "Lab_5.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm i nodemon -g"
   },
   "author": "",
   "license": "ISC",
